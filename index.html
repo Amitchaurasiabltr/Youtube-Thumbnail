@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARD</title>
+    <style>
+      .card {
+        display: flex;
+        width: 900px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        padding: 5px;
+        margin: 5px;
+      }
+      .image img {
+        width: 200px;
+      }
+      .text h1,
+      p {
+        padding: 2px 0;
+      }
+      .image{
+        position: relative;
+      }
+      .image .capsule{
+        position: absolute;
+        bottom: 9px;
+        z-index: 10;
+        right: 5px;
+        background: #453b3b;
+        opacity: .9;
+        color: white;
+        padding: 3px;
+        border-radius: 3px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://ergonotes.com/wp-content/uploads/2022/11/Find-YouTube-Thumbnail-Source.jpg"
+            alt=""
+          />
+          <div class="capsule">31:06</div>
+        </div>
+        <div class="text">
+          <h1>Introduction to my video | Welcome to new One #2</h1>
+          <p>National Academy . 727k viwes . 2 months ago</p>
+        </div>
+      </div>
+    </div>
+    <script src="sample.js"></script>
+  </body>
+</html>
